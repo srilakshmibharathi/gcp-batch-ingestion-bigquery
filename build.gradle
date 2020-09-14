@@ -22,14 +22,14 @@ dependencies {
 }
 
 run {
-    args = ["--project=grey-sort-challenge",
+    args = ["--project=ind-coe",
             "--runner=DataflowRunner",
             "--maxNumWorkers=5",
             "--numWorkers=1",
-            "--zone=australia-southeast1-a",
-            "--stagingLocation=gs://batch-pipeline/jars",
-            "--tempLocation=gs://batch-pipeline/tmp",
-            "--templateLocation=gs://batch-pipeline/template/pipeline"
+            "--zone=us-central1",
+            "--stagingLocation=gs://pipeline123/jars",
+            "--tempLocation=gs://pipeline123/tmp",
+            "--templateLocation=gs://pipeline123/template/pipeline"
     ]
 }
 
